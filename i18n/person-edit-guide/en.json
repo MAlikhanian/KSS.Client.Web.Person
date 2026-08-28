@@ -1,0 +1,127 @@
+{
+  "title": "Person Edit — Guide",
+  "subtitle": "A read-only training walkthrough — a representative set of the page's sections with sample data",
+  "entry": {
+    "button": "Visual guide",
+    "backToPage": "Back to Person Edit"
+  },
+  "demoBanner": "Training mode — all data on this page is sample data shown for demonstration only. Nothing is saved here and every control is read-only.",
+  "subsetNote": "This guide shows a representative set of the page's sections (name, personal info, contact, work experience and education). The real page has more sections: nationalities, professional training, relationships, documents and status — all of which work the same way.",
+  "labels": {
+    "guide": "Guide",
+    "whatIs": "What is this section?",
+    "howTo": "How do I use it?",
+    "tips": "Tips",
+    "demoData": "Sample data (display only)",
+    "realControlNote": "The real control for this section is shown below, in read-only mode.",
+    "facsimileNote": "This table is a representation of how this section really looks (display only).",
+    "personField": "Person",
+    "editMode": "Edit mode:"
+  },
+  "quickStart": {
+    "title": "What does this page do?",
+    "intro": "The «Person Edit» page manages a person's full profile across several sections: name & family, personal information, nationalities, contact (email/phone/address), work experience, education, professional training, relationships, documents and status.",
+    "steps": [
+      "First you select a person from the search box at the top; until one is selected the sections aren't editable.",
+      "You fill in or edit each section; most sections are a table with an «Add» button and per-row edit/delete.",
+      "Personal info and name are at the top of the form; the other sections follow as separate tables.",
+      "Finally the «Update Person» button saves the core person data (the table sections each save independently)."
+    ]
+  },
+  "sections": {
+    "selection": {
+      "title": "Select person",
+      "intro": "The box at the top where you search for and pick the person to edit. Until one is selected, the sections aren't editable.",
+      "steps": [],
+      "tips": [
+        "You can search by name or national ID.",
+        "The selected person is shared across the person Edit / Access / Security pages and is remembered."
+      ]
+    },
+    "name": {
+      "title": "Name, family name & father's name",
+      "intro": "The person's name in multiple languages (Persian and English) plus the father's name. Each language is one row.",
+      "steps": [],
+      "tips": [
+        "The English name can't be changed after the first save (a system rule).",
+        "Each language has exactly one row."
+      ]
+    },
+    "personalInfo": {
+      "title": "Personal information",
+      "intro": "The person's identity data: national ID, sex, date of birth, place of birth, birth-certificate details, marital status, religion, military status, insurance and passport.",
+      "steps": [],
+      "tips": [
+        "The national ID is locked once the person exists and can't be changed.",
+        "For women, the military-service fields are disabled.",
+        "Country/province/city selection is cascading."
+      ]
+    },
+    "emails": {
+      "title": "Emails",
+      "intro": "The person's emails with a label (personal/work/…), address and a «primary» flag.",
+      "steps": [],
+      "tips": [
+        "The «primary» column shows a yellow star.",
+        "The «Add» button adds a new email; each row can be edited/deleted."
+      ]
+    },
+    "phones": {
+      "title": "Phone numbers",
+      "intro": "The person's phone numbers with a label, number (international format) and a «primary» flag.",
+      "steps": [],
+      "tips": [
+        "Numbers are shown in international format (+ and country code).",
+        "One number can be marked as the primary number."
+      ]
+    },
+    "employment": {
+      "title": "Work experience",
+      "intro": "The person's employment records: company, business sector and unit, position, contract type and date range.",
+      "steps": [],
+      "tips": [
+        "A row with no «to date» is marked «Current».",
+        "Documents can be attached to each record."
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "intro": "The person's education records: level, field of study, institution, date range, GPA and completion status.",
+      "steps": [],
+      "tips": [
+        "The status column shows a «Completed» badge.",
+        "A document file can be attached to each record."
+      ]
+    },
+    "operations": {
+      "title": "Operations",
+      "intro": "At the bottom of the form, the «Update Person» button saves the core person data (name and personal info).",
+      "steps": [],
+      "tips": [
+        "The table sections (email, phone, work, education, …) each save separately and immediately.",
+        "In this training sample the button is disabled and nothing is saved."
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Why don't I see all of the real page's sections in this guide?",
+        "a": "This guide shows a representative set (name, personal info, contact, work and education). The other sections like nationalities, professional training, relationships, documents and status work the same way (a table with add/edit/delete)."
+      },
+      {
+        "q": "Why can't I edit anything?",
+        "a": "This page is for training and all controls are intentionally disabled. On the real page, once you select a person, the sections become editable."
+      },
+      {
+        "q": "What does the «Update Person» button save?",
+        "a": "The core person data (name and personal info). The table sections each save separately through their own dialog."
+      },
+      {
+        "q": "How do I pick a person to edit?",
+        "a": "Search by name or national ID in the box at the top of the page and select the person."
+      }
+    ]
+  }
+}
