@@ -4,6 +4,14 @@
 // Lists only the namespaces this project owns. Adding a namespace means
 // adding the folder under i18n\ and re-running the sync.
 
+import faBrokeragesCommon from '@/i18n/brokerages-common/fa.json';
+import enBrokeragesCommon from '@/i18n/brokerages-common/en.json';
+import faCompanyDocument from '@/i18n/company-document/fa.json';
+import enCompanyDocument from '@/i18n/company-document/en.json';
+import faCompanyInformation from '@/i18n/company-information/fa.json';
+import enCompanyInformation from '@/i18n/company-information/en.json';
+import faCompanyInformationGuide from '@/i18n/company-information-guide/fa.json';
+import enCompanyInformationGuide from '@/i18n/company-information-guide/en.json';
 import faItemRequest from '@/i18n/item-request/fa.json';
 import enItemRequest from '@/i18n/item-request/en.json';
 import faPersonAccess from '@/i18n/person-access/fa.json';
@@ -45,6 +53,10 @@ import enPersonStatus from '@/i18n/person-status/en.json';
 
 export const DOMAIN_NAMESPACES = {
   fa: {
+  'brokerages-common': faBrokeragesCommon,
+  'company-document': faCompanyDocument,
+  'company-information': faCompanyInformation,
+  'company-information-guide': faCompanyInformationGuide,
   'item-request': faItemRequest,
   'person-access': faPersonAccess,
   'person-address': faPersonAddress,
@@ -66,6 +78,10 @@ export const DOMAIN_NAMESPACES = {
   'person-status': faPersonStatus,
   },
   en: {
+  'brokerages-common': enBrokeragesCommon,
+  'company-document': enCompanyDocument,
+  'company-information': enCompanyInformation,
+  'company-information-guide': enCompanyInformationGuide,
   'item-request': enItemRequest,
   'person-access': enPersonAccess,
   'person-address': enPersonAddress,
